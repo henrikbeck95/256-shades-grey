@@ -46,7 +46,7 @@ Este software é portátil, ou seja, não há necessidade de instalação e já 
 
 ### Execução
 
-1. Baixe o arquivo executavél `.jar` na SESSAO `release`.
+1. Baixe o arquivo executavél `.jar` na seção `release`.
 
 1. Abra o `terminal` e execute o comando:
     > $ `java -jar ./256_tons_de_cinza.jar`
