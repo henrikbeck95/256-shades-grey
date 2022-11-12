@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.henrikbeck95.projects</groupId>
 	<artifactId>256-shades-grey</artifactId>
-	<version>0.0.1</version>
+	<version>1.0.1</version>
 	<name>256 shades of grey</name>
 	<description>Simple image processor tool for color convertion</description>
 	

@@ -60,14 +60,20 @@ Este software é portátil, ou seja, não há necessidade de instalação e já 
 
 ### Interface do software
 
-- ![Software](./screenshots/software.png)
+- ![Software menu file chooser](./docs/screenshots/01_menu_file_chooser.png)
 
-- ![Software gray scale](./docs/screenshots/software-grey_scale.png)
+- ![Software main screen clean content](./docs/screenshots/02_screen_main_clean.png)
 
-- ![Software white black](./docs/screenshots/software-white_black.png)
+- ![Software main screen loaded content](./docs/screenshots/03_screen_main_loaded.png)
+
+- ![Software main screen grey scale](./docs/screenshots/04_screen_main_grey.png)
+
+- ![Software main screen white black scale](./docs/screenshots/05_screen_main_white.png)
+
+- ![Software menu file export](./docs/screenshots/06_menu_file_export.png)
 
 ### Resultado da exportação
 
-- ![Export gray scale](./docs/screenshots/export-grey_scale.jpg)
+- ![Export gray scale](./dist/beach_scale_grey.jpg)
 
-- ![Export white black](./docs/screenshots/export-white_black.jpg)
+- ![Export white black scale](./dist/beach_scale_white.jpg)
