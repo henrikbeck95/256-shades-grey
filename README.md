@@ -1,64 +1,57 @@
-# 256 Tons de cinza
+# 256 Shades of Grey
 
-Software de conversão de imagem simplificado.
+Simple image processor tool for color conversion.
 
-## Descrição
+## References
 
-### Contexto
+- [Credits to the used picture](https://unsplash.com/photos/DuD5D3lWC3c).
 
-256 Tons de cinza é um software focado na remoção de canais RGB da imagem para assim transformá-la em escala de cinza.
+## Description
 
-Além disto, este software também calcula a tonalidade dos pixels da imagem para convertê-la em branco e preto. Neste cenário, os pixels que na escala de cinza forem `< 127` tornar-se-ão **brancos** e `>= 128` tornar-se-ão pretos na imagem.
+256 Shades of Grey is a dedicated software for removing RGB channel from file image for converting it to grey and white black scales.
 
-### Informações essenciais
+- Essentials information
 
-- Idioma: Português.
+|Subject            |Info
+|---                |---
+|Language           |English
+|Usage mode         |Graphical User Interface (GUI)
+|Operating systems  |Linux, MacOS and Windows
 
-- Linguagem: Java.
+- Features
+    1. [x] Load image file from current operating system.
+    1. [x] Clear the content (choose another file image for editing it).
+    1. [x] Convert image file to grey scale.
+    1. [x] Convert image file to white black scale.
+    1. [x] Export edited file image.
+    1. [x] Preview the original file image as thumbnail while editing.
+    1. [x] Choose the file name for exporting the edited file image.
 
-- Contêm interface gráfica.
+## Installation setup
 
-- Funciona em ambientes: Linux, MacOS e Windows.
+This is a portable software. No installation setup is required for running it.
 
-## Funcionalidades
+### Dependencies
 
-- Importar a imagem do computador.
+1. Java JRE >= 11.
 
-- Limpar imagem (escolher outra imagem para editar).
+### Executing
 
-- Converter imagem para escala de cinza.
+1. Download the executable `.jar` file on `release` section.
 
-- Converter imagem para branco e preto.
+1. Open your `terminal` and execute the following command:
+    > $ `java -jar ./256-shades-grey.jar`
 
-- Exportar imagem.
-
-- Visualizar imagem original em miniatura durante a edição.
-
-- Escolher o nome do arquivo da imagem convertida.
-
-## Instalação
-
-Este software é portátil, ou seja, não há necessidade de instalação e já está pronto para ser executado!
-
-### Dependências
-
-1. Java
-
-### Execução
-
-1. Baixe o arquivo executavél `.jar` na seção `release`.
-
-1. Abra o `terminal` e execute o comando:
-    > $ `java -jar ./256_tons_de_cinza.jar`
-
-1. Ou clone o este repositório e execute:
-    > $ `java -jar ./dist/256_tons_de_cinza.jar`
-
-1. Aproveite!
+1. Enjoy it!
 
 ## Screenshoots
 
-### Interface do software
+### Usage
+
+![Recording screen usage](./docs/screenshots/00_recording.gif)
+
+<!--
+### Software Graphical User Interface (GUI)
 
 - ![Software menu file chooser](./docs/screenshots/01_menu_file_chooser.png)
 
@@ -72,8 +65,9 @@ Este software é portátil, ou seja, não há necessidade de instalação e já 
 
 - ![Software menu file export](./docs/screenshots/06_menu_file_export.png)
 
-### Resultado da exportação
+### Exporting result
 
 - ![Export gray scale](./dist/beach_scale_grey.jpg)
 
 - ![Export white black scale](./dist/beach_scale_white.jpg)
+-->
