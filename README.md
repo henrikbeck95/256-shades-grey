@@ -62,12 +62,12 @@ Este software é portátil, ou seja, não há necessidade de instalação e já 
 
 - ![Software](./screenshots/software.png)
 
-- ![Software gray scale](./screenshots/software-grey_scale.png)
+- ![Software gray scale](./docs/screenshots/software-grey_scale.png)
 
-- ![Software white black](./screenshots/software-white_black.png)
+- ![Software white black](./docs/screenshots/software-white_black.png)
 
 ### Resultado da exportação
 
-- ![Export gray scale](./screenshots/export-grey_scale.jpg)
+- ![Export gray scale](./docs/screenshots/export-grey_scale.jpg)
 
-- ![Export white black](./screenshots/export-white_black.jpg)
+- ![Export white black](./docs/screenshots/export-white_black.jpg)
