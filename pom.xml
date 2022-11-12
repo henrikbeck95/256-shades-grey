@@ -6,6 +6,13 @@
 	<name>256 shades of grey</name>
 	<description>Simple image processor tool for color convertion</description>
 	
+	<!--
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+	-->
+	
 	<dependencies>
 		<dependency>
 			<groupId>com.henrikbeck95.library</groupId>
@@ -15,4 +22,35 @@
 			<systemPath>${pom.basedir}/src/main/resources/libs/common.jar</systemPath>
 		</dependency>
 	</dependencies>
+	
+	<build>
+		<plugins>
+			<plugin>
+	            <groupId>org.apache.maven.plugins</groupId>
+	            <artifactId>maven-compiler-plugin</artifactId>
+	            <version>3.10.1</version>
+	            
+	            <configuration>
+	                <source>1.8</source>
+	                <target>1.8</target>
+	            </configuration>
+        	</plugin>
+        
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				
+				<configuration>
+					<manifest>
+						<addClasspath>true</addClasspath>
+						<mainClass>com.henrikbeck95.project.shades.Main</mainClass>
+						<!-- 
+						<mainClass>/256-shades-grey/src/main/java/com/henrikbeck95/project/shades/Main.java</mainClass>
+						<mainClass>256-shades-grey.src.main.java.com.henrikbeck95.project.shades.Main.java</mainClass>
+						 -->
+					</manifest>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>

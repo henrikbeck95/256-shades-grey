@@ -37,12 +37,16 @@ This is a portable software. No installation setup is required for running it.
 
 ### Executing
 
-1. Download the executable `.jar` file on `release` section.
+- Open with mouse
+    > Just press double click over the file.
 
-1. Open your `terminal` and execute the following command:
-    > $ `java -jar ./256-shades-grey.jar`
+- Opening from terminal
+    1. Download the executable `.jar` file on `release` section.
 
-1. Enjoy it!
+    1. Open your `terminal` and execute the following command:
+        > $ `java -jar ./256-shades-grey.jar`
+
+    1. Enjoy it!
 
 ## Screenshoots
 
